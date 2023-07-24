@@ -73,14 +73,20 @@ class DiagramWidget extends StatelessWidget {
           Positioned(
             top: 20.0,
             left: 125.0,
-            child: Container(
-              width: 100.0,
-              height: 100.0,
-              color: Colors.blue,
-              child: Center(
-                child: Text(
-                  'BALTHASAR-2',
-                  style: TextStyle(color: Colors.white),
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(30.0),
+                bottomRight: Radius.circular(30.0),
+              ),
+              child: Container(
+                width: 100.0,
+                height: 100.0,
+                color: Colors.blue,
+                child: Center(
+                  child: Text(
+                    'BALTHASAR-2',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
             ),
@@ -88,14 +94,19 @@ class DiagramWidget extends StatelessWidget {
           Positioned(
             top: 180.0,
             left: 25.0,
-            child: Container(
-              width: 100.0,
-              height: 100.0,
-              color: Colors.blue,
-              child: Center(
-                child: Text(
-                  'CASPER-3',
-                  style: TextStyle(color: Colors.white),
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topRight: Radius.circular(30.0),
+              ),
+              child: Container(
+                width: 100.0,
+                height: 100.0,
+                color: Colors.blue,
+                child: Center(
+                  child: Text(
+                    'CASPER-3',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
             ),
@@ -103,14 +114,19 @@ class DiagramWidget extends StatelessWidget {
           Positioned(
             top: 180.0,
             right: 25.0,
-            child: Container(
-              width: 100.0,
-              height: 100.0,
-              color: Colors.blue,
-              child: Center(
-                child: Text(
-                  'MELCHIOR-1',
-                  style: TextStyle(color: Colors.white),
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(30.0),
+              ),
+              child: Container(
+                width: 100.0,
+                height: 100.0,
+                color: Colors.blue,
+                child: Center(
+                  child: Text(
+                    'MELCHIOR-1',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
             ),
